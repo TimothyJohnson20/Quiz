@@ -3,4 +3,7 @@
     <string name="text_question">Question</string>
     <string name="button_true">True</string>
     <string name="button_false">False</string>
+    <string name="textView_welcome">Welcome to my Questions game!</string>
+    <string name="textView_startGame">Press START GAME to play!</string>
+    <string name="button_play">START GAME</string>
 </resources>
