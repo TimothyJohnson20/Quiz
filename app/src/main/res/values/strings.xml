@@ -6,4 +6,5 @@
     <string name="textView_welcome">Welcome to my Questions game!</string>
     <string name="textView_startGame">Press START GAME to play!</string>
     <string name="button_play">START GAME</string>
+    <string name="points">points</string>
 </resources>
