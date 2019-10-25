@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
     public List<Question> questionsList;
     int questionNumber = 0;
     int points = 0;
-
+    public static final String FINAL_SCORE = "finalScore";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,8 +47,9 @@ public class MainActivity extends AppCompatActivity {
 
         InputStream JsonInputStream = getResources().openRawResource(R.raw.questions); // getting XML
 
-        String jsonText = readTextFile(JsonInputStream);
         textView_question.setText(questionsList.get(questionNumber).getQuestion());
+
+        textView_points.setText(getString(R.string.points) + points);
     }
 
     public String readTextFile(InputStream inputStream) {
@@ -68,8 +69,6 @@ public class MainActivity extends AppCompatActivity {
         return outputStream.toString();
     }
 
-
-
     public void wireWidgets(){
         button_true = findViewById(R.id.button_main_true);
         button_false = findViewById(R.id.button_main_false);
@@ -83,13 +82,29 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 if (questionsList.get(questionNumber).getAnswer()){
                     points++;
-                    questionNumber++;
+                    if(questionNumber < 10) {
+                        questionNumber++;
+                    }
+                    else{
+                        int extra_points = points;
+                        Intent targetIntent = new Intent(MainActivity.this, FinishedScreenActivity.class);
+                        targetIntent.putExtra(FINAL_SCORE, extra_points);
+                        startActivity(targetIntent);
+                    }
                 }
                 else{
-                    questionNumber++;
+                    if(questionNumber < 10) {
+                        questionNumber++;
+                    }
+                    else{
+                        int extra_points = points;
+                        Intent targetIntent = new Intent(MainActivity.this, FinishedScreenActivity.class);
+                        targetIntent.putExtra(FINAL_SCORE, extra_points);
+                        startActivity(targetIntent);
+                    }
                 }
                 textView_question.setText(questionsList.get(questionNumber).getQuestion());
-                textView_points.setText("Points: " + points);
+                textView_points.setText(getString(R.string.points) + points);
 
             }
         });
@@ -99,14 +114,30 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 if (!questionsList.get(questionNumber).getAnswer()){
                     points++;
-                    questionNumber++;
+                    if(questionNumber < 10) {
+                        questionNumber++;
+                    }
+                    else{
+                        int extra_points = points;
+                        Intent targetIntent = new Intent(MainActivity.this, FinishedScreenActivity.class);
+                        targetIntent.putExtra(FINAL_SCORE, extra_points);
+                        startActivity(targetIntent);
+                    }
                 }
                 else{
-                    questionNumber++;
+                    if(questionNumber < 12) {
+                        questionNumber++;
+                    }
+                    else{
+                        int extra_points = points;
+                        Intent targetIntent = new Intent(MainActivity.this, FinishedScreenActivity.class);
+                        targetIntent.putExtra(FINAL_SCORE, extra_points);
+                        startActivity(targetIntent);
+                    }
 
                 }
                 textView_question.setText(questionsList.get(questionNumber).getQuestion());
-                textView_points.setText("Points: " + points);
+                textView_points.setText(getString(R.string.points) + points);
 
             }
         });

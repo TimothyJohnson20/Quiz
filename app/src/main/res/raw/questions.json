@@ -8,7 +8,43 @@
     "answer": false
   },
   {
-    "question": "Mr. Shorr has an amazing beard",
+    "question": "Mr. Shorr looks like a Viking",
+    "answer": true
+  },
+  {
+    "question": "The United States is the best country",
+    "answer": true
+  },
+  {
+    "question": "Cats can be allergic to humans",
+    "answer": true
+  },
+  {
+    "question": "Abraham Lincoln was a Democrat",
+    "answer": false
+  },
+  {
+    "question": "Collegeboard is an abomination",
+    "answer": true
+  },
+  {
+    "question": "Apple is the richest company in the world",
+    "answer": false
+  },
+  {
+    "question": "Pineapple belongs on Pizza",
+    "answer": false
+  },
+  {
+    "question": "Water is wet",
+    "answer": true
+  },
+  {
+    "question": "Computer Science is fun",
+    "answer": true
+  },
+  {
+    "question": "Kayden needs a new hobby",
     "answer": true
   },
   {

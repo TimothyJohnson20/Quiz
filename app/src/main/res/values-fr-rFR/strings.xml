@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Quiz</string>
+    <string name="button_false">Faux</string>
+    <string name="button_play">DÉMARRER JEU</string>
+    <string name="button_true">Vrai</string>
+    <string name="points">" Points:"</string>
+    <string name="textView_startGame">"Appuyez sur DÉMARRER JEU pour jouer! "</string>
+    <string name="textView_welcome">"Bienvenue dans mon jeu de questions! "</string>
+    <string name="text_question">Question</string>
 </resources>
