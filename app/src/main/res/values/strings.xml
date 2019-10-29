@@ -10,4 +10,5 @@
     <string name="textView_congrats">Congratulations for finishing!</string>
     <string name="textView_finalScore">Your final score is: </string>
     <string name="button_playAgain">Play Again!</string>
+    <string name="textView_questionNumber">Question Number: </string>
 </resources>

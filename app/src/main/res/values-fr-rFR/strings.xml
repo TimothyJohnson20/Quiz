@@ -8,4 +8,9 @@
     <string name="textView_startGame">"Appuyez sur DÉMARRER JEU pour jouer! "</string>
     <string name="textView_welcome">"Bienvenue dans mon jeu de questions! "</string>
     <string name="text_question">Question</string>
+    <string name="button_playAgain">Rejouer!</string>
+    <string name="textView_congrats" translatable="false">Félicitations pour avoir fini!</string>
+    <string name="textView_finalScore" translatable="false">Votre score final est:</string>
+    <string name="textView_questionNumber" translatable="false">Numéro de question: </string>
+
 </resources>

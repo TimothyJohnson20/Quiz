@@ -1,0 +1,54 @@
+[
+  {
+    "question":"Log 100000000000 = 11",
+    "answer": false
+  },
+  {
+    "question": "Le dérivé de 9x^6 = 54x^6",
+    "answer": false
+  },
+  {
+    "question": "M. Shorr ressemble à un Viking",
+    "answer": true
+  },
+  {
+    "question": "Les Etats-Unis sont le meilleur pays",
+    "answer": true
+  },
+  {
+    "question": "Les chats peuvent être allergiques aux humains",
+    "answer": true
+  },
+  {
+    "question": "Abraham Lincoln était un démocrate",
+    "answer": false
+  },
+  {
+    "question": "Collegeboard est une abomination",
+    "answer": true
+  },
+  {
+    "question": "Apple est la société la plus riche du monde",
+    "answer": false
+  },
+  {
+    "question": "L'ananas appartient à la pizza",
+    "answer": false
+  },
+  {
+    "question": "L'eau est humide",
+    "answer": true
+  },
+  {
+    "question": "L'informatique, c'est amusant",
+    "answer": true
+  },
+  {
+    "question": "Kayden a besoin d'un nouveau passe-temps",
+    "answer": true
+  },
+  {
+    "question": "Timothy aime les sushis",
+    "answer": true
+  }
+]
